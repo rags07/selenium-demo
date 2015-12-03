@@ -25,7 +25,28 @@
 			<version>4.8.2</version>
 			<scope>test</scope>
 		</dependency>
-
+		<!-- Selenium -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-ie-driver</artifactId>
+			<version>2.48.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-ie-driver</artifactId>
+			<version>2.48.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>2.48.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>2.48.2</version>
+		</dependency>
+				
 		<!-- Logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -296,4 +317,9 @@
             </plugin>
 		</plugins>
 	</build>
+	<scm>
+		<url>https://github.com/rags07/selenium-demo</url>
+		<connection>https://github.com/rags07/selenium-demo</connection>
+		<developerConnection>Rags</developerConnection>
+	</scm>
 </project>
